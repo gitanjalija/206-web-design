@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <script type="text/javascript">
+  function charat()
+  {
+     str="Hello"
+	 alert("the charat() returns the charcter of givan index"+"\n"character at index 3 in hello is="+str.charAt(3));
+	 }
+
+function concat()
+
+{
+   str="Hello"
+   str2="imrd"
+   alert("it combine two string"+"\n"+"first string:Hello"+"\n"+"second string:imrd"+"\n="+str.concar(str2));
+}
+ function indexof()
+ 
+ {
+   str="Hello"
+   alert("the indexof() return index\n index of e in Hello is="+str.indexOf("e"));
+}
+
+function lastindexof()
+
+{
+   str="Hello"
+   alert("the lastindexOf() return the index from right side\nindex of l in Hello is="+str.lastindexOf("l"));
+}
+
+function search()
+
+{
+  str="Hello"
+  alert("it search character in givan string and return index\nstring is Hello\nif we enter H,it returns="+str.search("H"));
+}
+
+function replace()
+{
+
+
+
+
+
+
+
+
+
+
+</head>
+</html>
+  
