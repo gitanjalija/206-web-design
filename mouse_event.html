@@ -1,0 +1,39 @@
+<html>
+<head>
+<style type="text/css">
+div{
+     height:200px;
+     width:200px;
+     background:pink;
+}
+</style>
+</head>
+<body>
+        <h1 ">Mouse over me</h1>
+        <div id="demo" onmouseout="mouseOut()" onmouseout="mouseOut()"></div> 
+
+        <h1 id="" onmouseover="" onmouseout="">Mouse over me</h1>
+        <!--<div onmouseover="fun()"></div>-->
+
+        <h1 id="" onmouseover="" onmouseout="">Mouse over me</h1>
+        <!--<div onmouseout="fun()"></div>-->
+
+          <script type="text/javascript">
+             function fun()
+             {
+                 alert("Event Activated");
+             };
+          
+		     function mouseOver() 
+			 {
+                  document.getElementById("demo").style.background= "red";
+             }
+			 function mouseOut() 
+			 {
+                document.getElementById("demo").style.background= "black";
+             }
+
+		
+</script>
+</body>
+</html>
